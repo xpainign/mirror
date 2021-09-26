@@ -611,7 +611,7 @@ class GoogleDriveHelper:
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
                                  title = 'Xpains Mirrorbot Search',
-                                 author_name='Xpain'',
+                                 author_name='Xpain',
                                  author_url='https://ignxpain.cardd.co',
                                  html_content=content)
         return
